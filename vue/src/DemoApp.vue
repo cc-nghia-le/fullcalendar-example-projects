@@ -41,7 +41,8 @@ export default {
       ],
       calendarWeekends: true,
       calendarEvents: [ // initial event data
-        { title: 'Event Now', start: new Date() }
+        { title: 'Without end time', start: "2020-06-19 09:30:00" },
+        { title: 'With end time', start: "2020-06-19 13:00:00", end: "2020-06-19 15:00:00" }
       ]
     }
   },
